@@ -24,7 +24,7 @@ if not exist .venv (
 call .venv\Scripts\activate
 
 python -m pip install --upgrade pip
-python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+python -m pip install torch==2.1.2+cu121 torchvision==0.16.2+cu121 --index-url https://download.pytorch.org/whl/cu121
 python -m pip install -r requirements.txt
 
 python app.py
