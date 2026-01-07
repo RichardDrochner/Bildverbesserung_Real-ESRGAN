@@ -1,0 +1,17 @@
+# venv
+.venv/
+__pycache__/
+*.pyc
+
+# logs / outputs
+logs/
+outputs/
+*.log
+
+# OS / IDE
+.DS_Store
+.idea/
+
+# Real-ESRGAN cache
+Real-ESRGAN/.cache/
+Real-ESRGAN/**/__pycache__/
